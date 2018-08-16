@@ -1,2 +1,0 @@
-# fateclear
-GitHub Pages
