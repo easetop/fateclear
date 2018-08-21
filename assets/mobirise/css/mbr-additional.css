@@ -1755,71 +1755,77 @@ body {
 .cid-r1jTACei8w .mbr-section-subtitle {
   letter-spacing: .2rem;
 }
-.cid-r1owix3Gx0 {
+.cid-r1oyzPCUv3 {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-r1owix3Gx0 h2 {
-  text-align: left;
+.cid-r1oyzPCUv3 h2 {
+  text-align: center;
 }
-.cid-r1owix3Gx0 h4 {
-  text-align: left;
-  font-weight: 500;
+.cid-r1oyzPCUv3 h3 {
+  text-align: center;
+  font-weight: 300;
 }
-.cid-r1owix3Gx0 p {
+.cid-r1oyzPCUv3 p {
   color: #767676;
-  text-align: left;
 }
-.cid-r1owix3Gx0 .aside-content {
-  flex-basis: 100%;
-}
-.cid-r1owix3Gx0 .block-content {
+.cid-r1oyzPCUv3 .block-content {
   display: -webkit-flex;
   flex-direction: column;
   -webkit-flex-direction: column;
-  word-break: break-word;
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
 }
-.cid-r1owix3Gx0 .media {
-  margin: initial;
-  align-items: center;
-}
-.cid-r1owix3Gx0 .mbr-figure {
+.cid-r1oyzPCUv3 .mbr-figure {
   align-self: flex-start;
   -webkit-align-self: flex-start;
-  -webkit-flex-shrink: 0;
   flex-shrink: 0;
+  -webkit-flex-shrink: 0;
 }
-.cid-r1owix3Gx0 .card-img {
-  padding-right: 2rem;
-  width: auto;
+.cid-r1oyzPCUv3 .media-container-row {
+  word-wrap: break-word;
+  word-break: break-word;
 }
-.cid-r1owix3Gx0 .card-img span {
-  font-size: 72px;
+.cid-r1oyzPCUv3 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-r1oyzPCUv3 .card-title {
+  font-weight: 500;
+}
+.cid-r1oyzPCUv3 .card-img {
+  text-align: inherit;
+}
+.cid-r1oyzPCUv3 .card-img span {
+  font-size: 48px;
   color: #707070;
 }
 @media (min-width: 992px) {
-  .cid-r1owix3Gx0 .mbr-figure {
-    padding-right: 4rem;
+  .cid-r1oyzPCUv3 .mbr-figure {
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-r1owix3Gx0 .mbr-figure {
-    padding-right: 0;
-    padding-bottom: 1rem;
+  .cid-r1oyzPCUv3 .mbr-figure {
     margin-bottom: 2rem;
   }
 }
-@media (max-width: 300px) {
-  .cid-r1owix3Gx0 .card-img span {
-    font-size: 40px !important;
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-r1oyzPCUv3 .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
-}
-.cid-r1owix3Gx0 H2 {
-  text-align: center;
-}
-.cid-r1owix3Gx0 .mbr-text {
-  text-align: center;
+  .cid-r1oyzPCUv3 .block-content {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    text-align: center;
+  }
+  .cid-r1oyzPCUv3 .block-content .card {
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+  }
 }
 .cid-r1iU84Pwrj {
   padding-top: 0px;
